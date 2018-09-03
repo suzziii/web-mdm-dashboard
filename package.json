@@ -17,7 +17,7 @@
     "gh-pages-screenshots": "yarn gh-pages --dist cypress/screenshots --dest screenshots",
     "gh-pages-docs": "yarn gh-pages --dist docs --dest docs",
     "gh-pages-coverage": "yarn gh-pages --dist coverage --dest coverage",
-    "gh-pages-reports": "yarn gh-pages --dist reports --dest reports",
+    "gh-pages-reports": "yarn gh-pages --dist reports",
     "gh-pages-changelog": "yarn gh-pages --dist ./ --src '{./C*.md,CHANGELOG.md}' --dest ./ --add",
     "test": "NODE_PATH=./src yarn jest --config ./config/jest/jest.config.json",
     "test:watch": "NODE_PATH=./src yarn test --watch",
